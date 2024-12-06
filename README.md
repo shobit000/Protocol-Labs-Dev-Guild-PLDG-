@@ -1,3 +1,25 @@
+Coding Problem: Decentralized Data Governance
+Design a system where users can upload file metadata to a decentralized storage solution (e.g., IPFS) and govern the availability of these files collaboratively through on-chain governance.
+
+Problem Requirements
+
+File Metadata Storage:
+Upload file metadata such as IPFS CID, name, description, and uploader address.
+Store metadata on-chain for governance purposes.
+
+File Accessibility Management:
+Allow users to propose adding or removing files from an "accessible" list.
+Use governance (voting) to decide whether files remain accessible.
+
+Governance Mechanism:
+Implement a DAO-like voting system where token holders can vote on proposals.
+Files are marked "accessible" or "hidden" based on the majority vote.
+
+Interoperability:
+Use IPFS or Filecoin for decentralized file storage.
+Use Ethereum or compatible chains for on-chain governance.
+
+
 # Protocol-Labs-Dev-Guild-PLDG
 
 ## Metadata Storage
