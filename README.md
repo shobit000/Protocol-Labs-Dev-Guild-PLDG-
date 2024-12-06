@@ -20,6 +20,9 @@ storage.updateMetadata('file1', { size: 200 });
 // Delete metadata
 storage.deleteMetadata('file1');
 
+## File Accessibility Management
+
+### Usage
 
 const FileAccessManagement = require('./accessibility/file_access_management');
 const accessMgmt = new FileAccessManagement();
@@ -32,6 +35,10 @@ console.log(accessMgmt.hasAccess('file1', 'user1')); // true
 
 // Revoke access
 accessMgmt.revokeAccess('file1', 'user1');
+
+## Governance Mechanism
+
+### Usage
 
 pragma solidity ^0.8.0;
 
@@ -60,6 +67,8 @@ contract MyContract {
         governance.executeProposal(proposalId);
     }
 }
+
+## Running Tests
 
 # For JavaScript tests
 npm test
